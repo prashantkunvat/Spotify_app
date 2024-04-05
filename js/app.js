@@ -102,7 +102,7 @@ async function displayAlbums() {
   for (let index = 0; index < array.length; index++) {
     const e = array[index];
 
-    if (e.href.includes("/songs/")) {
+    if (e.href.includes("/songs/") !e.href.includes(".htaccess")) {
       let folder = e.href.split("/").slice(-2)[1];
 
       // get the mata data of the folder
