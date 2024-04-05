@@ -1,0 +1,138 @@
+@media(max-width : 1400px) {
+
+    
+    
+    .container{
+        height: 100vh;
+        background-color: black;
+    }
+
+    
+    
+    
+    .left{
+        background-color: black;
+        position: absolute;
+        left: -120%;
+        transition: all .3s;
+        z-index: 1;
+        width: calc(100vw - 7px);
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hameburger{
+        display: block;
+        width: 35px;
+    }
+    
+    .songList ul{
+        padding-right: 8px;
+        padding-left: 0;
+    }
+    .songList ul li {
+        border-radius: 9px;
+    }
+
+
+
+    .right .playlist .playbar {
+        width: calc(100vw - 60px);
+        position: fixed;
+        bottom: 0;
+        left: 12px;
+    }
+
+    .aboveBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .songtime, .songinfo{
+        width: auto;
+    }
+
+    
+
+
+    .right .playlist .seekbar {
+        width: calc(100vw - 60px);
+    }
+    
+    .timevol {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .volume{
+        margin-bottom: 10px;
+    }
+    
+    .right{
+        width: 100vw;
+        margin: 0;
+        border-radius: none;
+        background: black;
+        width: 100%;
+        overflow-y:auto;
+        overflow-x: hidden;
+    }
+    
+
+    .cardContainer{
+        margin: 0;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        overflow-y: unset;
+        max-height: 64vh;
+        justify-content: center;
+        position: relative;
+        left: 7px;
+        
+    }
+
+    .card{
+        margin-top: 12px;
+
+        width: 314px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:  #252525;
+        position: relative;
+        right: 7px;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header > * {
+        padding: 8px;
+    }
+    
+    
+
+    .left .close{
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 11px;
+        width: 30px;
+    };
+    
+   
+    .play{
+        display: none;
+    }
+}
+
+
