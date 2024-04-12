@@ -140,7 +140,7 @@ async function displayAlbums() {
 }
 
 async function main() {
-  await getSongs("songs ");
+  await getSongs("songs/1");
   playMusic(songs[0], true);
   // here we are first accessing songlist ul and then storing them into varible called songUl. after that we use for of loop on songs[cus its arr] and store each song into songLists ul.
 
